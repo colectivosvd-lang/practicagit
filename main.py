@@ -5,9 +5,10 @@ def main():
     print("--- MENU MATEMATICO ---")
     print("1. Sumar")
     print("2. Restar")
-    opcion = input("Seleccione una opción (1 o 2): ")
+    print("3. Potencia")
+    opcion = input("Seleccione una opción (1 o 3): ")
 
-    if opcion in ["1", "2"]:
+    if opcion in ["1", "2", "3"]:
         num1 = float(input("Ingrese el primer número: "))
         num2 = float(input("Ingrese el segundo número: "))
 
@@ -15,6 +16,8 @@ def main():
             sumar(num1, num2)
         elif opcion == "2":
             restar(num1, num2)
+        elif opcion == "3":
+            porencia(num1, num2)
     else:
         print("Opción no válida.")
 
