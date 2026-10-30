@@ -2,6 +2,12 @@ import sys
 import math
 
 
+def restar(a, b):
+    resultado = a - b
+    print("Resultado:", resultado)
+    return resultado
+
+
 def main():
     print("--- MENU MATEMATICO ---")
     print("1. Sumar")
