@@ -1,6 +1,11 @@
 import sys
 import math
 
+def potencia(a, b):
+    resultado = a ** b
+    print("Resultado: ", resultado)
+    return resultado
+
 def main():
     print("--- MENU MATEMATICO ---")
     print("1. Sumar")
@@ -17,7 +22,7 @@ def main():
         elif opcion == "2":
             restar(num1, num2)
         elif opcion == "3":
-            porencia(num1, num2)
+            potencia(num1, num2)
     else:
         print("Opción no válida.")
 
