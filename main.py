@@ -1,6 +1,13 @@
 import sys
 import math
 
+
+def restar(a, b):
+    resultado = a - b
+    print("Resultado:", resultado)
+    return resultado
+
+
 def main():
     print("--- MENU MATEMATICO ---")
     print("1. Sumar")
@@ -17,6 +24,7 @@ def main():
             restar(num1, num2)
     else:
         print("Opción no válida.")
+
 
 if __name__ == "__main__":
     main()
